@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Russo+One&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>L P G</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__items">
+        <div class="header__logo">
+          <a class="logo" href="#">
+            <img class="logo__img" src="images/logo.svg" alt="логотип">
+          </a>
+          <p class="logo__text">
+            Расправь плечи в теплом доме
+          </p>
+        </div>
+        <div class="header__contact">
+          <a class="header__contact-link" href="tel:+79263306834">+7 926 330-68-34</a>
+          <a class="header__quesеt" href="#popup">
+            Срочный вопрос
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="message">
+      <div class="container">
+        <h2 class="message__title">
+          Спасибо за обращение
+        </h2>
+        <p class="message__text">
+          наш специалист свяжется с вами в ближайшее время
+        </p>
+        <a class="message__btn" href="index.html">
+          Вернуться на сайт
+        </a>
+      </div>
+    </div>
+  </main>
+  <div class="popup" id="popup">
+    <a href="#header" class="popup__area"></a>
+    <div class="popup__body">
+      <div class="popup__content">
+        <a class="popup__close" href="#header">X</a>
+        <div class="popup__title">Доставим газ <br> за 4 часа</div>
+        <input class="popup__input" type="text" placeholder="Имя" required>
+        <input class="popup__input" type="email" placeholder="Телефон" required>
+        <a href="page2.html" class="popup__btn">Заказать доставку газа</a>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
